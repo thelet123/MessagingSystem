@@ -1,5 +1,5 @@
 # MessagingSystem
-A simple restful API application with GET POST DELETE reqsusts and costomized queries. using WEB, JPA, SQL dependencies 
+A simple restful API application with GET POST DELETE reqsusts and costomized queries. using spring boot's WEB, JPA, SQL dependencies 
 
 This application doesnt have client side and it can be accessed from PostMan. 
 The code is running on an heroku server thats connect MySql db as well using clearDB addon.
