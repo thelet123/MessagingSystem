@@ -41,3 +41,19 @@ DELETE request
 Delete A message by ID  - at the end of url insert a message id  
 url:
 https://app-messaging-system.herokuapp.com/deleteMessage/{ID}
+
+
+
+To connect and see the heroku DB : 
+mysql server 8.0+ on the computer is a must for this part 
+	• In CMD enter to mysql server (with the path of bin)
+		○ For example in my computer- 
+		Cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+	• After that connect to my public DB user (which is used by addon cleardb mysql on heroku) with the following commends
+		○ mysql -u bd897affe6cd42 -peee87443 -h us-cdbr-east-06.cleardb.net
+		○  connect heroku_f07dbcbb5a7db4f;
+	• Then you can see all tables 
+		○ show tables;
+	• Or see the columns with values in the relevant table 
+		○  select * from message;
+
