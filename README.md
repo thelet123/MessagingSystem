@@ -1,12 +1,12 @@
 # MessagingSystem
 A simple restful API application with GET POST DELETE reqsusts and costomized queries. using spring boot's WEB, JPA, SQL dependencies 
 
-* This application doesnt have client side and it can be accessed from PostMan. 
 * The code is running on an heroku server thats connect MySql db as well using clearDB addon.
 * The server address: https://app-messaging-system.herokuapp.com 
+* This application doesnt have client side and it can be accessed from PostMan. 
+* The PostMan collection link: https://go.postman.co/workspace/New-Team-Workspace~1faa93ed-acee-42a2-8628-09ad5ce043fa/collection/21771026-771cc50d-04f5-4322-9024-eab5ad2e10b4?action=share&creator=21771026
 
-
-PostMan tutorial:
+PostMan tutorial (use the collection link for built in requests):
 	
 	POST request Write A message - the creation date and ID are being given automaticly 
 		url:
